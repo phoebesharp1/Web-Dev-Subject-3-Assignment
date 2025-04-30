@@ -31,7 +31,8 @@ Last class, we learned how to:
 
 ---
 
-
+&nbsp;
+&nbsp;
 
 # 2025.04.30 – Tonight's Agenda
 
@@ -40,6 +41,9 @@ Tonight, we are moving beyond GitHub and learning how to **publish your Assignme
 If we do what we need to do successfully, we will be able to demonstrate our Assignment as a fully deployed working website which you can use to record your *walk-through* video.
 
 ---
+
+&nbsp;
+&nbsp;
 
 ## 1️⃣ Create a Vercel Account (using GitHub)
 
@@ -64,6 +68,9 @@ To keep things smooth and beginner-friendly, we will all create our Vercel accou
 
 ---
 
+&nbsp;
+&nbsp;
+
 # ⚠️ Heads-Up: New Onboarding Process (April 2025)
 
 > In the past, Vercel only required 1 or 2 steps to create an account.  
@@ -71,6 +78,9 @@ To keep things smooth and beginner-friendly, we will all create our Vercel accou
 > It’s tedious, but necessary — just follow each step exactly.
 
 ---
+
+&nbsp;
+&nbsp;
 
 ✅ **Step 2: Red Error Message**
 
@@ -84,6 +94,9 @@ If this happens:
   *(or use the “Sign Up” button at the top-right corner)*
 
 ---
+
+&nbsp;
+&nbsp;
 
 ✅ **Step 3: Plan Type Selection**
 
@@ -101,6 +114,9 @@ Clicking **Continue** completes your account setup.
 
 ---
 
+&nbsp;
+&nbsp;
+
 ✅ **Step 4: Connect Git Provider**
 
 You may now see this:
@@ -116,11 +132,17 @@ This final step allows Vercel to **see your GitHub repositories**, which is requ
 
 ---
 
+&nbsp;
+&nbsp;
+
 ✅ **Possible Step 5: Phone Number Verification (Not Always Shown)**
 
 Some users — particularly if they’ve signed up multiple times or are on a shared internet connection — may be asked to verify their identity with a phone number.
 
 You’ll see a screen like this:
+
+&nbsp;
+&nbsp;
 
 > **"Verification – Please enter your phone number to verify your login."**
 
@@ -134,6 +156,9 @@ You’ll see a screen like this:
 
 ---
 
+&nbsp;
+&nbsp;
+
 ✅ **Account Settings Screen**
 
 Once signed in, students will land on their **Account Settings** page. From here they can:
@@ -142,6 +167,9 @@ Once signed in, students will land on their **Account Settings** page. From here
   → This determines their live project URLs, e.g. `https://project-name.vercel.app`
 
 ---
+
+&nbsp;
+&nbsp;
 
 ✅ **First Dashboard Experience: May Vary**
 
@@ -161,6 +189,9 @@ Other students (with only 1 or 2 GitHub repos) might **skip this screen entirely
 
 ---
 
+&nbsp;
+&nbsp;
+
 ✅ **GitHub App Installation**
 
 When you select a Git namespace or try to import, you may be asked to **Install the Vercel GitHub App**.
@@ -175,6 +206,9 @@ Click:
 
 ---
 
+&nbsp;
+&nbsp;
+
 # 🎉 Final Step – Deployment Success!
 
 You’ll eventually reach a screen that says:
@@ -187,6 +221,9 @@ You’ll see:
 - A **Continue to Dashboard** button
 
 ---
+
+&nbsp;
+&nbsp;
 
 # 🧭 Understanding Vercel Projects and the Overview Screen
 
@@ -201,6 +238,9 @@ But here's the thing:
 A **Vercel Project** is a live website that's linked to one specific GitHub repository.  
 Every time you push changes to that repo, Vercel updates the project automatically.
 
+&nbsp;
+&nbsp;
+
 ## 📂 Opening a Project from the Overview
 
 1. You’ll see a list of your projects (starting with the one you just deployed)
@@ -212,27 +252,51 @@ Once inside, you’ll get access to:
 - **Preview URLs**
 - **Settings**
 
+&nbsp;
+&nbsp;
+
 ## ⚠️ Why You MUST Open a Project First
 
 > 🧠 **Deployment history, live links, and settings are all inside the project view — not on the Overview.**
 
 ---
 
+&nbsp;
+&nbsp;
+
 # 🔗 How to Get the Link to Your Live Vercel Website
 
 You’ll need this for your walk-through video or assignment submission.
 
+&nbsp;
+&nbsp;
+
 ## 1️⃣ Go to [https://vercel.com/dashboard](https://vercel.com/dashboard)
 
+&nbsp;
+&nbsp;
+
 ## 2️⃣ Click your project name (e.g., `subject-3-app`)
+
+&nbsp;
+&nbsp;
 
 ## 3️⃣ Copy the **Production URL** (e.g., `https://subject-3-app-username.vercel.app`)
 
 ---
 
+&nbsp;
+&nbsp;
+
 # 🔁 Making Ongoing Changes – VS Code → GitHub → Vercel
 
+&nbsp;
+&nbsp;
+
 ## 1️⃣ Edit your code in VS Code
+
+&nbsp;
+&nbsp;
 
 ## 2️⃣ Run:
 
@@ -241,6 +305,9 @@ git add .
 git commit -m "Describe what you changed"
 git push origin main
 ```
+
+&nbsp;
+&nbsp;
 
 ## 3️⃣ Vercel auto-deploys your update!
 
