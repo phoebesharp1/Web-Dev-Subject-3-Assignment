@@ -1,0 +1,166 @@
+.btn-outline {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+    width: 200px;
+  
+}
+  
+  
+.btn:hover {
+    background-color: white;
+    color: pink;
+    border-color: pink;
+
+}
+  
+  
+.btn:hover:active {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+}
+
+.navImage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/vinyl.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+  
+  
+}
+
+.navImage2 {
+    
+    background-image: url(../images/default.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+
+
+.nav-link {
+    transition: transform 0.3s ease, padding 0.3s ease; /* Smooth transition */
+    display: inline-block; /* Allows transformation without affecting layout */
+    padding-left: 10px; /* Add initial padding as required */
+    padding-right: 10px;
+}
+  
+
+.nav-link:hover {
+    transform: scale(1.1); /* Scale the link */
+    padding-left: 10px; /* Keep padding the same to prevent jumping */
+    padding-right: 10px; /* Keep padding the same to prevent jumping */
+}
+
+.navbar-brand {
+    transition: transform 0.3s ease, padding 0.3s ease; /* Smooth transition */
+    display: inline-block; /* Allows transformation without affecting layout */
+    padding-left: 10px; /* Add initial padding as required */
+    padding-right: 10px;
+
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1); 
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+  
+
+
+
+
+
+
+.ssTitle {
+    font-size: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+
+.containerSS {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* artist cards */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Card Container */
+  .album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual Card */
+  .card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .card h3 {
+    font-size: 1em;
+    margin: 10px 0 5px;
+  }
+  
+  .card p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #1DB954;
+    font-weight: bold;
+  }
+
